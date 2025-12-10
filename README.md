@@ -29,20 +29,3 @@ pip install -r requirements.txt
 
 # 3. Download spaCy model
 python -m spacy download en_core_web_sm
-
-## 🚀 Step 2: Push to GitHub
-
-Now that you have your code (`OCR_PII_Pipeline.ipynb`), your samples, `requirements.txt`, and `README.md`, you are ready to use Git.
-
-**Action:** Execute the following commands in your PowerShell, **starting from your project directory**:
-
-| Step | Command | Description |
-| :--- | :--- | :--- |
-| **1. Initialize** | `git init` | Turns your folder into a local Git repository. |
-| **2. Add Files** | `git add .` | Stages ALL files in the current folder for the first commit (including your notebook, images, and `requirements.txt`). |
-| **3. Commit** | `git commit -m "Initial commit of the OCR PII pipeline"` | Creates the first snapshot (commit) of your project. |
-| **4. Create Remote Repo** | *Go to GitHub.com and create a **New Repository** (e.g., `ocr-pii-pipeline`). DO NOT initialize it with a README or license.* | |
-| **5. Link Local to Remote** | `git remote add origin [YOUR_REPO_URL]` | Connects your local folder to the new GitHub repository (replace `[YOUR_REPO_URL]` with the HTTPS link from GitHub). |
-| **6. Push** | `git push -u origin master` | Uploads your code to the GitHub website. |
-
-After running these steps, refresh your GitHub repository page. All your files, including the complete Python Notebook, will be available online!
